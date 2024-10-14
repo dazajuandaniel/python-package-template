@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "helpers"
+version = "0.1.0"
+description = "A skeleton Python package"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+ruff = "^0.6.9"
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
